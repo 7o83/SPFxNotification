@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-fx-notification-list-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spFxNotificationList/SpFxNotificationListWebPart.js",
+          "manifest": "./src/webparts/spFxNotificationList/SpFxNotificationListWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpFxNotificationListWebPartStrings": "lib/webparts/spFxNotificationList/loc/{locale}.js"
+  }
+}

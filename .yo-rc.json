@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "packageManager": "npm",
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.11.0",
+    "libraryName": "sp-fx-notification",
+    "libraryId": "b6ee6297-2ce9-4a67-8b98-c8439b422b0e",
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
